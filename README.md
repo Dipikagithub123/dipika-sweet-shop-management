@@ -170,7 +170,7 @@ curl -X GET http://localhost:5000/api/sweets \
 ## Screenshots
 
 ### Login Page
-![Login Page](/login.png)
+![Login Page](/Screenshot 2025-12-14 004916.png)
 
 ### Dashboard
 ![Dashboard](/dashboard.png)
