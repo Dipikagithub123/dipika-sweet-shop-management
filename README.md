@@ -168,15 +168,17 @@ curl -X GET http://localhost:5000/api/sweets \
 6. Click the restock icon (📦) to add more quantity to a sweet
 
 ## Screenshots
+### Registration Page
+![Registration Page](registration-page.png)
 
 ### Login Page
-![Login Page](/Screenshot 2025-12-14 004916.png)
+![Login Page](login.png)
 
-### Dashboard
-![Dashboard](/dashboard.png)
+### Admin Dashboard
+![Admin Dashboard](admin-dashboard.png)
 
-### Admin Panel
-![Admin Panel](/admin.png)
+### User Dashboard
+![User Dashboard](user-dashboard.png)
 
 ## Test Coverage
 
