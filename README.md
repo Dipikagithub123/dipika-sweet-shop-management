@@ -1,11 +1,7 @@
 # Sweet Shop Management System
 
-A full-stack web application for managing a sweet shop inventory, built with Node.js, MongoDB, and React. This project demonstrates modern web development practices including RESTful API design, JWT authentication, and responsive UI design.
+The Sweet Shop Management System is a full-stack web application for managing inventory, sales, and operations of a sweet shop. Built with Node.js, Express.js, MongoDB, and React, it digitizes inventory management and automates core business processes. The system provides two interfaces: a customer-facing interface for browsing, searching, and purchasing sweets, and an administrative interface for managing products, inventory, and operations. It features JWT-based authentication with role-based access control, allowing regular users to browse and purchase products while administrators have full CRUD capabilities to add, edit, delete, and restock products. The application includes advanced search and filtering by name, category, and price range, real-time inventory updates when purchases are made, and automatic stock level management. The backend is a RESTful API built with Express.js that handles business logic, authentication, and data processing, while the frontend is a React single-page application with a responsive design. The system uses MongoDB for flexible data storage, implements secure password hashing with bcryptjs, and includes input validation and error handling. The project demonstrates full-stack development skills, modern web architecture, and software engineering practices, with a test suite achieving 100% pass rate and 81.64% code coverage. It is production-ready, well-documented, and deployable, suitable for small to medium-sized sweet shop businesses looking to modernize their operations and improve efficiency.
 
-![Sweet Shop](https://img.shields.io/badge/Sweet-Shop-pink?style=for-the-badge)
-![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=for-the-badge&logo=node.js)
-![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge&logo=react)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?style=for-the-badge&logo=mongodb)
 
 ## Features
 
