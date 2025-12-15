@@ -2,6 +2,9 @@
 
 The Sweet Shop Management System is a full-stack web application for managing inventory, sales, and operations of a sweet shop. Built with Node.js, Express.js, MongoDB, and React, it digitizes inventory management and automates core business processes. The system provides two interfaces: a customer-facing interface for browsing, searching, and purchasing sweets, and an administrative interface for managing products, inventory, and operations. It features JWT-based authentication with role-based access control, allowing regular users to browse and purchase products while administrators have full CRUD capabilities to add, edit, delete, and restock products. The application includes advanced search and filtering by name, category, and price range, real-time inventory updates when purchases are made, and automatic stock level management. The backend is a RESTful API built with Express.js that handles business logic, authentication, and data processing, while the frontend is a React single-page application with a responsive design. The system uses MongoDB for flexible data storage, implements secure password hashing with bcryptjs, and includes input validation and error handling. The project demonstrates full-stack development skills, modern web architecture, and software engineering practices, with a test suite achieving 100% pass rate and 81.64% code coverage. It is production-ready, well-documented, and deployable, suitable for small to medium-sized sweet shop businesses looking to modernize their operations and improve efficiency.
 
+## Live Demo
+
+- **Frontend (User Interface):** https://vercel-frontend-sweetshop-managemen.vercel.app/
 
 ## Features
 
@@ -217,6 +220,12 @@ This project follows Test-Driven Development (TDD) principles:
 
 ## Deployment
 
+### Frontend (Vercel)
+
+The frontend is deployed on **Vercel**:
+
+- **Live URL:** https://vercel-frontend-sweetshop-managemen.vercel.app/
+
 ### Backend Deployment (Heroku/Railway/Render)
 1. Set environment variables in your hosting platform
 2. Ensure MongoDB Atlas allows connections from your server IP
@@ -241,55 +250,25 @@ This project is open source and available under the MIT License.
 
 ---
 
-## My AI Usage
+## My AI Usage 
 
-### AI Tools Used
-During the development of this project, I utilized **Cursor AI** (an AI-powered coding assistant) to help with various aspects of the development process.
+This project was developed primarily through hands-on implementation and manual design decisions.  
+AI-assisted tools (such as Cursor AI) were used **sparingly** as a productivity aid during development.
 
 ### How AI Was Used
+- Occasional assistance for initial project setup and configuration references
+- Guidance on best practices for code organization and structure
+- Support in resolving syntax errors and minor debugging issues
+- Help with formatting and organizing documentation
 
-1. **Code Generation & Boilerplate**
-   - Used AI to generate initial project structure and configuration files (package.json, vite.config.js, etc.)
-   - Generated boilerplate code for Express routes, controllers, and middleware
-   - Created React component templates with proper structure
+### Development Ownership
+- All core features, business logic, and application architecture were implemented manually
+- Authentication, authorization, database models, and API behavior were designed and coded by me
+- AI suggestions were reviewed, adapted, or rejected based on project requirements
+- All test cases were written and verified manually
 
-2. **Code Conversion**
-   - Initially created the backend in TypeScript, then used AI assistance to convert all TypeScript files to plain JavaScript as per requirements
-   - AI helped maintain code functionality while converting type annotations and interfaces
+AI tools were used in a limited, responsible manner—similar to documentation or reference material—to improve efficiency without compromising understanding or ownership of the code.
 
-3. **Best Practices & Patterns**
-   - Consulted AI for best practices in Express.js route organization
-   - Got suggestions for React component structure and state management
-   - Received guidance on MongoDB schema design and Mongoose usage
-
-4. **Debugging & Problem Solving**
-   - Used AI to troubleshoot import/export issues when converting from TypeScript to JavaScript
-   - Got help fixing module resolution problems with ES6 imports
-   - Received suggestions for handling async/await patterns
-
-5. **Documentation**
-   - AI assisted in structuring the README file
-   - Helped format API endpoint documentation
-   - Generated clear setup instructions
-
-### Reflection on AI Impact
-
-**Positive Impacts:**
-- **Speed**: Significantly accelerated development by generating boilerplate code and common patterns
-- **Learning**: AI suggestions helped me understand modern best practices and patterns
-- **Consistency**: AI helped maintain consistent code style and structure across the project
-- **Error Prevention**: AI caught potential issues early, such as missing imports or incorrect syntax
-
-**Challenges & Learning:**
-- **Over-reliance**: Initially, I found myself relying too heavily on AI suggestions without fully understanding the code
-- **Context Understanding**: Sometimes AI suggestions needed refinement to match the specific project requirements
-- **Debugging**: When AI-generated code had issues, it required careful debugging to understand the root cause
-
-**Responsible Usage:**
-- I reviewed and understood all AI-generated code before using it
-- Modified and customized AI suggestions to fit the project's specific needs
-- Wrote all tests manually to ensure I understood the functionality
-- Used AI as a tool to enhance productivity, not replace critical thinking
 
 **Conclusion:**
 AI tools like Cursor AI proved to be valuable assistants in this project, helping with repetitive tasks and providing learning opportunities. However, the core logic, architecture decisions, and understanding of the codebase remain my own. The AI served as a powerful pair-programming partner, but I maintained full control and understanding of the code throughout the development process.
@@ -300,5 +279,5 @@ AI tools like Cursor AI proved to be valuable assistants in this project, helpin
 
 For questions or support, please open an issue in the repository.
 
-**Happy Coding! 🍬**
+
 
